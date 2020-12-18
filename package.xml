@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>iiwapy</name>
+  <version>0.0.1</version>
+  <description>Python interface to a subset of the iiwa_stack functionality to the KUKA LBR IIWA R800/R820 https://github.com/IFL-CAMP/iiwa_stack</description>
+  <maintainer email="robin@additiveautomations.com">Robin Edwards</maintainer>
+  <license>BSD 2 Clause</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_depend>python3-catkin-pkg</buildtool_depend>
+  <test_depend>rosunit</test_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>actionlib</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>iiwa_msgs</exec_depend>
+</package>
