@@ -118,7 +118,7 @@ def desired_force(dof: DOF, force: float, stiffness: float) -> None:
     else:
         clamp("stiffness", stiffness, 0, 5000.0)
 
-    clamp("force", force, 0, 10)  # Just limited to 10 for safety
+    clamp("force", force, 0, 100)
 
     switch_control_mode(
         ConfigureControlModeRequest(
