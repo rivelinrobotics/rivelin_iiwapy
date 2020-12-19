@@ -118,3 +118,9 @@ if inputs.input_1:
 ### Notes
 
 [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/) is ideal for experimenting with the robot, make sure you have workspace monitoring and completed [safety configuration](https://github.com/IFL-CAMP/iiwa_stack/wiki/safetyconf) before hand though.
+
+----
+
+### Acknowledgements
+This repository is part of a sub-project that has indirectly received funding from the European Union's Horizon 2020 research and innovation programme via an Open Call issued and executed under project TRINITY (grant agreement No 825196).   
+<img src="https://europa.eu/european-union/sites/europaeu/files/docs/body/flag_yellow_low.jpg" width="150" />       ![TRINITY](https://trinityrobotics.eu/wp-content/uploads/2019/10/trinity-logo.svg)
